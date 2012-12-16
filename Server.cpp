@@ -64,7 +64,7 @@ int main()
 
 	Connections = (SOCKET*)calloc(64, sizeof(SOCKET));
 	sConnect = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-  sListen = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+        sListen = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
 	char* message = new char[256];
 	ZeroMemory(message, 256);
